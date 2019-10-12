@@ -5,24 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="bio_style.css">
 </head>
 
 <body>
-    <h1>Student Bio:</h1>
-    <h2>Kali</h2>
-
-    <img src="kali.jpeg" width="600" height="450" alt="photo of kali" />
-
-    <p><em>Origin:</em> Portland, Maine</p>
-    <p><em>Currently:</em> Redding, Connecticut</p>
-    <p>Bartender turned Web Development student taking it one day, and one cup of coffee at a time. Interests include sleeping, Scrabble & stand-up comedy</p>
+    <div class="container">
+        <header>
+            <h1>Student Bio:</h1>
+        </header>    
     
-    <h2>Contact Info</h2>
-        <ul>
-            <li><strong>Email:</strong> <a href="mailto:kapulkkinen@gmail.com">kapulkkinen@gmail.com</a></li>
-            <li><strong>GitHub:</strong> <a href="https://github.com/kalipulk" target="_blank">kalipulk</a></li>
-            <li><strong>Portfolio:</strong> <a href="#">TBD!</a></li>        
-        </ul>
+        <h2>Kali</h2>
+    
+        <img src="kali.jpeg" alt="photo of kali" id="bioImage" width="600" height="450" />
 
+        <section id="mainBio">
+            <p><strong>Origin:</strong> Portland, Maine</p>
+            <p><strong>Currently:</strong> Redding, Connecticut</p>
+            <p>Bartender turned Web Development student. Just taking it one day, and one cup of coffee at a time. Interests include sleeping, Scrabble & stand-up comedy.</p>
+        </section>
+
+        <section id="contactInfo">
+            <h2>Contact Info</h2>
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:kapulkkinen@gmail.com">kapulkkinen@gmail.com</a></li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/kalipulk" target="_blank">kalipulk</a></li>
+                    <li><strong>Portfolio:</strong> <a href="#">TBD!</a></li>        
+                </ul>
+        </section> 
+    </div>   
 </body>
 </html>
